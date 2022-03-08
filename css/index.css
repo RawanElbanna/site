@@ -1,1 +1,474 @@
+@import url(https://fonts.google.com/specimen/Overpass?preview.text_type=custom);
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Overpass', sans-serif;
+}
+.start  .first_div{
+ 
+  border-radius:0px 0px 0px 70px;
+  height: 600px;
+  background-image: linear-gradient(to right, hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+}
 
+.start .back{
+  height: 600px;
+ background-image: url("../images/bg-pattern-intro-desktop.svg");
+ background-position: 23% 54%;
+ background-repeat: no-repeat;
+}
+.navbar{
+  display: flex;
+}
+
+.navbar .right-item{
+display: flex;
+padding-top: 30px;
+}
+.navbar .r h3{
+  font-weight: 600;
+ color: #fff;
+ font-size: 38px;
+ margin-top: 30px;
+ margin-left: 30px;
+}
+
+.right-item option{
+  display: none;
+  height: 0%;
+  overflow: hidden;
+}
+.navbar .fa-bars{
+  display: none;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 230px;
+  flex-wrap: wrap;
+  color: #fff;
+  cursor: pointer;
+
+}
+select{
+background-color: transparent;
+color: antiquewhite;
+border: none;
+border-color: transparent;
+cursor: pointer;
+margin-left: 20px;
+font-weight: 300;
+font-size: 20px;
+}
+select:hover{
+  border: none;
+  text-decoration:underline;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+  margin-top: 13px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 10px 11px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  font-weight: bolder;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar .left-item {
+  margin-top: 50px;
+  margin-left: 600px;
+}
+.navbar .left-item a{
+  padding: 10px 27px;
+  text-decoration: none;
+  color:hsl(356, 100%, 66%);
+  border: 40px;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 18px;
+}
+.navbar .left-item .x{
+  background-color: transparent;
+  color: antiquewhite;
+}
+.navbar .left-item .y:hover{
+  color: #fff;
+  background-color:indianred;
+}
+.back .header h2{
+   color:antiquewhite;
+   text-align: center;
+   font-weight: 600;
+   font-size: 60px;
+   padding-top: 100px;
+}
+.back .header p{
+  color:#fff;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 22px;
+}
+.s a{
+  padding: 10px 27px;
+  text-decoration: none;
+  color: #FF6562;
+  border:1px;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 18px;
+  border-color: #fff;
+}
+.header .s .y1{
+  background-color: transparent;
+  color:#fff;
+  border-color: #fff;
+  border-style: solid;
+}
+.header .s .x1:hover{
+  color: #fff;
+  background-color:indianred;
+}
+.header .s .y1:hover{
+color: #FF6462;
+background-color: #fff;
+border: none;
+}
+ .s{
+  text-align: center;
+  margin-top: 40px;
+  border-color: #fff;
+}
+.sec-div {
+  height: 600px;
+}
+.sec-div img{
+  float: right;
+  margin-top: 60px;
+  height: 600px;
+  width: 590px;
+}
+.sec-div h2{
+  color:hsl(237, 23%, 32%);
+  margin-top: 120px;
+  margin-bottom: 40px;
+  margin-left: 510px;
+  float: left;
+  font-size: 30px;
+}
+.texts{
+  margin-left: 100px;
+}
+ .text h3{
+  color:hsl(237, 23%, 32%);
+  padding-bottom: 18px;
+}
+.text p{
+padding-bottom: 30px;
+color: hsl(237, 17%, 21%);
+}
+.text2 h3{
+  padding-bottom: 18px;
+  color:hsl(237, 23%, 32%);
+}
+.text2 p{
+  color: hsl(237, 17%, 21%);
+}
+.third-div{
+  height: 450px;
+}
+.third-div .one{
+  background-image: url("../images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  background-size: 50%;
+  height: 300px;
+}
+.third-div .se img{
+  padding-top: 0px;
+  margin-left: 60px;
+}
+
+.third-div {
+margin-top: 100px;
+background-image:linear-gradient(to right,hsl(237, 17%, 21%) ,hsl(237, 23%, 32%)) ;
+border-radius:0px 70px 0px 70px;
+}
+.third-div .s2{
+  float: right;
+  margin-top: 130px;
+  margin-right: 125px;
+  color: hsl(0, 0%, 100%);
+}
+.third-div h2{
+ color: hsl(0, 0%, 100%);
+ font-weight: 500;
+ padding-bottom:50px;
+ font-size: 50px;
+}
+.third-div p{
+  line-height: 1.6;
+  font-weight: 200;
+}
+.fourth-div{
+  height: 700px;
+  display: flex;
+}
+.fourth-div img{
+  float: left;
+  margin-top: 90px;
+  height: 600px;
+  width: 700px;
+}
+.fourth-div .s{
+  text-align: left;
+}
+.fourth-div .s h2{
+  color:hsl(237, 23%, 32%);
+  margin-top: 190px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.fourth-div .s p{
+  padding-left: 100px;
+  line-height: 1.6;
+  font-weight: 200;
+  color: hsl(237, 17%, 21%);
+}
+.fourth-div .s2 h2{
+  color:hsl(237, 23%, 32%);
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+} 
+.fourth-div .s2 p{
+  padding-left: 100px;
+  line-height: 1.6;
+  font-weight: 200;
+  color: hsl(237, 17%, 21%);
+}
+.fifth-div{
+  display: flex;
+  height: 300px;
+  background-color:hsl(240, 10%, 16%) ;
+  border-radius:0px 70px 0px 0px;
+}
+.fifth-div .list{
+  display: flex;
+  padding-left: 400px;
+  padding-top: 81px;
+}
+.fifth-div ul li h2{
+  color:#fff;
+  padding: 60px 20px;
+  font-size: 40px;
+}
+.fifth-div ul li{
+  list-style-type:none;
+}
+.fifth-div ul li h4{
+  color: #fff;
+  padding-bottom: 26px;
+}
+.fifth-div ul li a{
+  text-decoration: none;
+  color: antiquewhite;
+  line-height: 2.1;
+}
+.fifth-div ul li a:hover{
+  text-decoration: underline;
+}
+.list .l1{
+  padding-right: 120px;
+}
+.list .l2{
+  padding-right: 150px;
+}
+.navbar .left-item img{
+  display: none;
+}
+@media(max-width:550px){
+  .navbar {
+    width: 100%;
+    position: absolute;
+    top: 58px;
+}
+.navbar .right-item , .navbar .left-item{
+  display: none;
+}
+
+
+/* .navbar .left-item img{
+  display: block;
+} */
+.start  .first_div{
+  border-radius:0px 0px 0px 100px;
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient( hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+}
+.start .back{
+  height: 600px;
+  border-radius:0px 0px 0px 100px;
+  background-position: 30% 40%;
+ background-repeat: no-repeat;
+ background-size:300%;
+}
+.back .header{
+  padding-top: 75px;
+}
+.back .header h2{
+  font-size: 40px;
+}
+.back .header p{
+  font-size: 18px;
+}
+.sec-div{
+  height: 1030px;
+}
+.sec-div h2{
+ width: 100%;
+  text-align: center; 
+  margin-left:0%;
+  margin-top: 50px;
+}
+.sec-div img{
+  margin-top: 10px;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.sec-div .texts{
+  margin-left: 20px;
+}
+.sec-div .texts  h3 {
+ text-align: center;
+ width: 100%;
+ font-size: 25px;
+}
+.sec-div .texts p{
+  text-align: center;
+  width: 100%;
+}
+.third-div{
+  height: 600px;
+  width: 100%;
+}
+.third-div .se img{
+  width: 100%;
+  margin-left: 0%;
+
+ margin-top: 0%;
+}
+.third-div .one{
+  background-size: cover;
+}
+.third-div .one .s2{
+padding-top:10px;
+margin-top: 0%;
+
+}
+.third-div .one h2{ 
+  font-weight: 400;
+ padding-bottom:0px;
+ font-size: 40px;
+ text-align: center;
+ padding-left: 60px;
+}
+.third-div .one p{
+  font-weight: 200;
+  text-align: center;
+  padding-left: 60px;
+  margin-top:10px;
+}
+.third-div .one .s2{
+  margin-bottom: 0%;
+}
+.fourth-div{
+  width: 100%;
+  height: 1200px;
+  display: block;
+}
+.fourth-div .f{
+  width: 100%;
+}
+.fourth-div .ts{
+  width: 100%;
+}
+.fourth-div img{
+  margin-top: 30px;
+  height: 450px;
+  width: 100%;
+  margin-bottom: 50px;
+  size: 90%;
+}
+.fourth-div .ts .s h2{
+  text-align: center;
+  font-size: 40px;
+ text-align: center;
+ padding-left: 20px;
+}
+.fourth-div .ts .s p{
+  font-weight: 200;
+  text-align: center;
+  padding-left: 60px;
+  margin-top:10px;
+}
+.fourth-div .ts .s2 h2{
+  text-align: center;
+  font-size: 40px;
+ text-align: center;
+ padding-left: 20px;
+}
+.fourth-div .ts .s2 p{
+  font-weight: 200;
+  text-align: center;
+  padding-left: 60px;
+  margin-top:10px;
+}
+.fifth-div{
+  height: 900px;
+  width: 100%;
+  display: block;
+}
+.fifth-div h2{
+ margin-left: 142px;
+}
+.fifth-div .list{
+  display: block;
+padding-left: 180px;
+padding-top: 20px;
+}
+.fifth-div .list h4{
+  margin-top: 25px; 
+  padding-bottom: 10px;
+}
+.fifth-div .list a{
+  margin-top: 4px; 
+}
+.navbar .fa-bars{
+  display:block;
+  margin-right: 60px;
+}
+.navbar .r h3{
+  display: block;
+  font-weight: 600;
+  color: #fff;
+  font-size: 38px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+}
